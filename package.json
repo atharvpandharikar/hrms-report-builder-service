@@ -1,0 +1,32 @@
+{
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.3.1",
+    "exceljs": "^4.4.0",
+    "express": "^5.2.1",
+    "json2csv": "^6.0.0-alpha.2",
+    "pg": "^8.20.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  },
+  "name": "report-builder",
+  "version": "1.0.0",
+  "description": "A backend service built with Node.js, Express, and PostgreSQL that allows administrators to dynamically generate custom reports from HRMS data (employees, attendance, payroll, departments, and designations).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atharvpandharikar/hrms-report-builder-service.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/atharvpandharikar/hrms-report-builder-service/issues"
+  },
+  "homepage": "https://github.com/atharvpandharikar/hrms-report-builder-service#readme"
+}
